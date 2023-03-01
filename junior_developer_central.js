@@ -150,14 +150,37 @@
 
 // Write a Javascript program to concatenate two strings except their first character.
 
-const concatenate = (str1, str2) => str1.slice(1) + str2.slice(1);
+// const concatenate = (str1, str2) => str1.slice(1) + str2.slice(1);
 
-console.log(concatenate('abc', 'def'));
-console.log(concatenate('Junior', 'Developer'));
+// console.log(concatenate('abc', 'def'));
+// console.log(concatenate('Junior', 'Developer'));
 
 // Exercise 4:
 
+// Given two CSSFontPaletteValuesRule, write a Javascript program to find out which one is nearest to 100.
+
+// const closestTo100 = (a, b) =>
+// (100 - a < 100 - b ? a : b);
+
+// console.log(closestTo100(99, 1));
+// console.log(closestTo100(49, 51));
+// console.log(closestTo100(50, 50));
+
 // Exercise 5:
+
+// Write a Javascript program to check a given string contains 2 to 4 ocurrences of a specific character.
+
+// const countChars = (str, char) =>
+//     str.split('').filter((ch) => ch === char).length;
+
+// const contains2To4 = (str, char) =>
+//     countChars(str, char) >= 2 && countChars(str, char) <= 4;
+
+// console.log(contains2To4('ooh!', 'o'));
+// console.log(contains2To4('oh!', 'o'));
+// console.log(contains2To4('oooh!', 'o'));
+// console.log(contains2To4('ooooh!', 'o'));
+// console.log(contains2To4('oooooh!', 'o'));
 
 // Exercises can be found in this youtube video
 // Part 1: https://www.youtube.com/watch?v=N65RvNkZFGE&ab_channel=JuniorDeveloperCentral
