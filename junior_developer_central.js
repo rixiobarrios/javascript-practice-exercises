@@ -140,13 +140,20 @@
 
 // Write a Javascript program to extract the first half of a string of even length.
 
-const firstHalf = (str) => str.slice(0, str.length / 2);
+// const firstHalf = (str) => str.slice(0, str.length / 2);
 
-console.log(firstHalf('temp'));
-console.log(firstHalf('temple'));
-console.log(firstHalf('temples'));
+// console.log(firstHalf('temp'));
+// console.log(firstHalf('temple'));
+// console.log(firstHalf('temples'));
 
 // Exercise 3:
+
+// Write a Javascript program to concatenate two strings except their first character.
+
+const concatenate = (str1, str2) => str1.slice(1) + str2.slice(1);
+
+console.log(concatenate('abc', 'def'));
+console.log(concatenate('Junior', 'Developer'));
 
 // Exercise 4:
 
