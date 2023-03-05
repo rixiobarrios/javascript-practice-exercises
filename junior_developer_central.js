@@ -193,6 +193,48 @@
 // console.log(countEvenNumbers([2, 2, 2, 2, 2, 2]));
 // console.log(countEvenNumbers([3, 5, 7, 9, 10, 100]));
 
+// Exercise 2:
+
+// Write a Javascript program to find the number of even values up to a given number.
+
+// const countEvenNumbers = (arr) => arr.filter((num) => num % 2 === 0).length;
+
+// const createArrayOfNumbers = (num) => {
+//     const returnArray = [];
+//     for (let i = 1; i <= num; i += 1) {
+//         returnArray.push(i);
+//     }
+//     return returnArray;
+// };
+
+// console.log(countEvenNumbers(createArrayOfNumbers(6)));
+// console.log(countEvenNumbers(createArrayOfNumbers(9)));
+
+// Exercise 3:
+
+// Write a Javascript program to check whether a given array of integers is sorted in ascending order.
+
+// const isAscending = (arr) => {
+//     for (let i = 0; i < arr.length; i += 1) {
+//         if (arr[i + 1] < arr[i]) return false;
+//     }
+//     return true;
+// };
+
+// console.log(isAscending([1, 2, 3, 5, 6]));
+// console.log(isAscending([1, 2, 5, 4, 3, 6]));
+// console.log(isAscending([1, 2, 3, 4, 5, 6, 6]));
+
+// Exercise 4:
+
+// Write a Javascript program to get the largest even number from an array of integers.
+
+// const largestEven = (arr) => Math.max(...arr.filter((num) => num % 2 === 0));
+
+// console.log(largestEven([1, 2, 3, 4, 5, 6]));
+// console.log(largestEven([1, 2, 33, 4, 5, 6]));
+// console.log(largestEven([1, 2, 3, 44, 55, 6]));
+
 // Exercises can be found in this youtube video
 // Part 1: https://www.youtube.com/watch?v=N65RvNkZFGE&ab_channel=JuniorDeveloperCentral
 // Part 2: https://www.youtube.com/watch?v=U0Ce27lA7R4&ab_channel=JuniorDeveloperCentral
