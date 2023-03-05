@@ -235,6 +235,16 @@
 // console.log(largestEven([1, 2, 33, 4, 5, 6]));
 // console.log(largestEven([1, 2, 3, 44, 55, 6]));
 
+// Exercise 5:
+
+// Write a Javascript program to replace the first digit in a string (should contain at least digit) with $ character.
+
+// const replaceFirstDigit = (str) => str.replace(/\d/, '$');
+
+// console.log(replaceFirstDigit('Abcd1Abcde'));
+// console.log(replaceFirstDigit('A123Abcde'));
+// console.log(replaceFirstDigit('A1cd1Abcd1'));
+
 // Exercises can be found in this youtube video
 // Part 1: https://www.youtube.com/watch?v=N65RvNkZFGE&ab_channel=JuniorDeveloperCentral
 // Part 2: https://www.youtube.com/watch?v=U0Ce27lA7R4&ab_channel=JuniorDeveloperCentral
