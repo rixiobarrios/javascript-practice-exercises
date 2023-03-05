@@ -182,6 +182,17 @@
 // console.log(contains2To4('ooooh!', 'o'));
 // console.log(contains2To4('oooooh!', 'o'));
 
+// Part 3
+// Exercises 1:
+
+// Write a Javascript program to find the number of even digits in an array of integers.
+
+// const countEvenNumbers = (arr) => arr.filter((num) => num % 2 === 0).length;
+
+// console.log(countEvenNumbers([1, 2, 3, 4, 5, 6]));
+// console.log(countEvenNumbers([2, 2, 2, 2, 2, 2]));
+// console.log(countEvenNumbers([3, 5, 7, 9, 10, 100]));
+
 // Exercises can be found in this youtube video
 // Part 1: https://www.youtube.com/watch?v=N65RvNkZFGE&ab_channel=JuniorDeveloperCentral
 // Part 2: https://www.youtube.com/watch?v=U0Ce27lA7R4&ab_channel=JuniorDeveloperCentral
