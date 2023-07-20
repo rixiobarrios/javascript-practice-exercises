@@ -1,4 +1,4 @@
-// Part 1
+// Beginner Exercises: Part 1
 // Exercise 1:
 
 // Write a Javascript program to check two numbers and return true if one of the numbers is 100 or if the sum of the two numbers is 100
@@ -123,7 +123,7 @@
 // console.log(addNew('Offers'));
 // console.log(addNew('New! Offers'));
 
-// Part 2
+// Beginner Exercises: Part 2
 // Exercise 1:
 
 // Write a Javascript program to create a new string from a given string taking the first 3 characters and the last 3 characters of a string and adding them together. The string length must be 3 or more, if not, the original string is returned.
@@ -182,7 +182,7 @@
 // console.log(contains2To4('ooooh!', 'o'));
 // console.log(contains2To4('oooooh!', 'o'));
 
-// Part 3
+// Beginner Exercises: Part 3
 // Exercises 1:
 
 // Write a Javascript program to find the number of even digits in an array of integers.
@@ -245,6 +245,13 @@
 // console.log(replaceFirstDigit('A123Abcde'));
 // console.log(replaceFirstDigit('A1cd1Abcd1'));
 
+// Beginner Exercises: Part 4
+// Exercises 1:
+
+// Given a year, report if it is a leap year.
+
 // Exercises can be found in this youtube video
 // Part 1: https://www.youtube.com/watch?v=N65RvNkZFGE&ab_channel=JuniorDeveloperCentral
 // Part 2: https://www.youtube.com/watch?v=U0Ce27lA7R4&ab_channel=JuniorDeveloperCentral
+// Part 3: https://www.youtube.com/watch?v=0_sbUwVU32k&ab_channel=codebubb
+// Part 4: https://www.youtube.com/watch?v=FGklOjedW7E&ab_channel=codebubb
