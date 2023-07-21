@@ -250,6 +250,64 @@
 
 // Given a year, report if it is a leap year.
 
+// function isLeapYear(year) {
+//     if (year % 4 === 0) {
+//         return year + ' is a leap year';
+//     } else {
+//         return year + ' is not a leap year';
+//     }
+// }
+
+// console.log(isLeapYear(2014));
+// console.log(isLeapYear(2015));
+// console.log(isLeapYear(2016));
+// console.log(isLeapYear(2017));
+// console.log(isLeapYear(2018));
+// console.log(isLeapYear(2019));
+
+// Another solution
+
+// const isLeapYear = (year) => year % 4 === 0;
+
+// console.log(isLeapYear(2014));
+// console.log(isLeapYear(2015));
+// console.log(isLeapYear(2016));
+// console.log(isLeapYear(2017));
+// console.log(isLeapYear(2018));
+// console.log(isLeapYear(2019));
+
+// Exercises 2:
+
+// Write a Javascript program to compare two objects to determine if the first one contains the same properties and the second one (which may also have additional properties)
+
+const object1 = {
+    property: 1,
+    a: 2,
+    key: 3,
+};
+
+const object2 = {
+    property: 1,
+    a: 2,
+    key: 3,
+};
+
+const object3 = {
+    property: 1,
+    a: 2,
+    d: 3,
+};
+
+function compareObjects(obj1, obj2) {
+    return Object.keys(obj1).every((key) => obj2[key]);
+}
+
+console.log(compareObjects(object1, object2));
+console.log(compareObjects(object1, object3));
+console.log(compareObjects(object2, object3));
+
+// Exercises 3:
+
 // Exercises can be found in this youtube video
 // Part 1: https://www.youtube.com/watch?v=N65RvNkZFGE&ab_channel=JuniorDeveloperCentral
 // Part 2: https://www.youtube.com/watch?v=U0Ce27lA7R4&ab_channel=JuniorDeveloperCentral
