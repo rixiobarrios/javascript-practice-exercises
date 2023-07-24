@@ -280,33 +280,85 @@
 
 // Write a Javascript program to compare two objects to determine if the first one contains the same properties and the second one (which may also have additional properties)
 
-const object1 = {
-    property: 1,
-    a: 2,
-    key: 3,
-};
+// const object1 = {
+//     property: 1,
+//     a: 2,
+//     key: 3,
+// };
 
-const object2 = {
-    property: 1,
-    a: 2,
-    key: 3,
-};
+// const object2 = {
+//     property: 1,
+//     a: 2,
+//     key: 3,
+// };
 
-const object3 = {
-    property: 1,
-    a: 2,
-    d: 3,
-};
+// const object3 = {
+//     property: 1,
+//     a: 2,
+//     d: 3,
+// };
 
-function compareObjects(obj1, obj2) {
-    return Object.keys(obj1).every((key) => obj2[key]);
-}
+// function compareObjects(obj1, obj2) {
+//     return Object.keys(obj1).every((key) => obj2[key]);
+// }
 
-console.log(compareObjects(object1, object2));
-console.log(compareObjects(object1, object3));
-console.log(compareObjects(object2, object3));
+// console.log(compareObjects(object1, object2));
+// console.log(compareObjects(object1, object3));
+// console.log(compareObjects(object2, object3));
 
 // Exercises 3:
+
+// Write a javascript program to convert a comma-separated values (cvs) string to a 2D array. A new line indicates a new row in the array
+
+// Example:
+// abc, def, ghi
+// jkl, mno, prq
+// stu, vwx, yza
+
+// const str = `abc, def, ghi
+// jkl, mno, pqr
+// stu, vwx,yza`;
+
+// function parseCVS(cvsString) {
+//     return cvsString.split('\n').map((row) => row.split(','));
+// }
+
+// console.log(parseCVS(str));
+
+// Exercises 4:
+
+// Write a javascript program to generate a random hexadecimal color code.
+
+// function getRandomHexNumber() {
+//     return Math.floor(Math.random() * 16).toString(16);
+// }
+
+// function getRandomHexColor() {
+//     return '#' + Array.from({ length: 6 }).map(getRandomHexNumber).join('');
+// }
+
+// console.log(getRandomHexColor());
+
+// Exercise 5:
+
+// Write a javascriot function that returns true if the provided predicate function returns true for all elements in the collection, false otherwise.
+
+// console.log([1, 2, 3, 4, 5].every((x) => x > 0));
+// console.log([1, 2, 3, 4, 5].every((x) => x > 3));
+
+// Another solution
+
+function isEveryElem(arr, fn) {
+    for (let i = 0; i < arr.length; i++) {
+        if (!fn(arr[i])) {
+            return false;
+        }
+        return true;
+    }
+}
+
+// console.log(isEveryElem([1, 2, 3, 4, 5], (x) => x > 0));
+// console.log(isEveryElem([1, 2, 3, 4, 5], (x) => x > 3));
 
 // Exercises can be found in this youtube video
 // Part 1: https://www.youtube.com/watch?v=N65RvNkZFGE&ab_channel=JuniorDeveloperCentral
