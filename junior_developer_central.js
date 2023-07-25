@@ -348,20 +348,26 @@
 
 // Another solution
 
-function isEveryElem(arr, fn) {
-    for (let i = 0; i < arr.length; i++) {
-        if (!fn(arr[i])) {
-            return false;
-        }
-        return true;
-    }
-}
+// function isEveryElem(arr, fn) {
+//     for (let i = 0; i < arr.length; i++) {
+//         if (!fn(arr[i])) {
+//             return false;
+//         }
+//         return true;
+//     }
+// }
 
 // console.log(isEveryElem([1, 2, 3, 4, 5], (x) => x > 0));
 // console.log(isEveryElem([1, 2, 3, 4, 5], (x) => x > 3));
+
+// Beginner Exercises: Part 4
+// Exercises 1:
+
+// Write a javascript function that returns a passed string
 
 // Exercises can be found in this youtube video
 // Part 1: https://www.youtube.com/watch?v=N65RvNkZFGE&ab_channel=JuniorDeveloperCentral
 // Part 2: https://www.youtube.com/watch?v=U0Ce27lA7R4&ab_channel=JuniorDeveloperCentral
 // Part 3: https://www.youtube.com/watch?v=0_sbUwVU32k&ab_channel=codebubb
 // Part 4: https://www.youtube.com/watch?v=FGklOjedW7E&ab_channel=codebubb
+// Part 4: https://www.youtube.com/watch?v=Alo1giKd3s8&ab_channel=codebubb
